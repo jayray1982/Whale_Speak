@@ -28,6 +28,6 @@ for ( i = 0; i < input.length; i++) {
 }
 
 
-let resultString = resultArray.toString().toUpperCase()
+let resultString = resultArray.join("").toUpperCase()
 
 console.log(resultString);
